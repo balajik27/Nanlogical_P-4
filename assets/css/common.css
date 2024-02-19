@@ -19,18 +19,26 @@ body {
 .line_height{
     line-height: 2.5rem;
 }
-.li{
+ul{
+    margin: 0;
+    padding: 0;
+}
+li{
     list-style: none;
 }
 .cursor_pointer{
     cursor: pointer;
 }
-
+.main_font_color{
+    color: #0e5af2;
+}
 
 
 /* -------FIRST_SECTION-------------- */
 #first_section{
     /* -------SET BACKGROUND IMAGE HERE------- */
+    background: url(../images/pages/service/breadcumb-bg.jpeg);
+
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;

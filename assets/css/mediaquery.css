@@ -13,19 +13,54 @@
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (max-width: 768px) {
-    
+
+    /* --------PAGES-SERVICE-CSS---------- */
+    #specialization .process_box{
+        max-width: 100%;
+    }
+    /* --------PAGES-SERVICE-CSS - END---------- */
+
+
+    /* --------PAGES-PROJECT-CSS--------------- */
+    .project_hover_content {
+        bottom: 14px;
+        left: 22px;
+    }
+    /* --------PAGES-PROJECT-CSS END--------------- */
+
+    /* ---------------404 PAGE---------------------- */
+    .number_404{
+        font-size: 8rem;
+    }
+    .oops_text{
+        font-size: 1.5rem;
+    }
+    /* ---------------404 PAGE - END---------------------- */
+
 }
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-   
+
+    /* --------PAGES-PROJECT-CSS--------------- */
+    .icon_box {
+        height: 39px;
+        width: 39px;     
+    }
+    .icon_box i {
+        font-size: 13px;
+    }
+    .project_img_box img{
+        height: 300px;
+        object-fit: cover;
+    }
+    /* --------PAGES-PROJECT-CSS END--------------- */
+
 }
 
 /* /* ---- iphone 13pro max ---------- */
 @media only screen and (max-device-width: 430px) {
-    #specialization .process_box{
-        max-width: 100%;
-    }
+    
 }
 
 /* /* ---- iphone XR max ---------- */
