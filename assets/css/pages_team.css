@@ -1,45 +1,56 @@
-
-
-/* -----SERVICES-------- */
-
-.read_more{
-    background: #eff1f5;
-    color: #0e5af2;
+*{
+    transition: 0.4s !important;
 }
-#services .service_box_content{
-   
-    z-index: 3;
-    
+
+.teammate_box{
+    box-shadow: 0px 10px 31px rgba(169, 177, 193, 0.17);
 }
-#services .service_box:hover .service_box_content{
+.teammate_box:hover img{
+    transform: scale(1.15);
+}
+.teammate_box .social_media_box{
+    bottom: 0;
+    left: 30px;
+    right: 30px;
+    background: #0e5af2;
     color: #fff;
-    
 }
-#services .service_box_bg_img{
-    background-image: url(../images/pages/service/sr-bg-shape-2-1.png);
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    border-radius: inherit;
+.teammate_box .social_media_box , .teammate_box .social_media_box a {
     opacity: 0;
     visibility: hidden;
-    transition: all ease 0.4s !important;
-    transform: scale(1.15);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
 }
-#services .service_box:hover .service_box_bg_img{
-   
+.teammate_box .social_media_box a:nth-child(1){
+    transform: translateY(-15px);
+}
+.teammate_box .social_media_box a:nth-child(2){
+    transform: translateY(-20px);
+}
+.teammate_box .social_media_box a:nth-child(3){
+    transform: translateY(-30px);
+}
+.teammate_box .social_media_box a:nth-child(4){
+    transform: translateY(-40px);
+}
+.teammate_box .social_media_box a:nth-child(5){
+    transform: translateY(-50px);
+}
+.teammate_box:hover .social_media_box{
     opacity: 1;
     visibility: visible;
-    transform: scale(1);
-    /* z-index: 10; */
 }
-#services .service_box:hover {
-   background: #0e5af2;
+.teammate_box:hover .social_media_box a{
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+.teammate_box:hover .team_name_designation{
+    background-color: rgba(169, 177, 193, 0.17);
+}
+
+
+
+.teammate_name{
+    color: #000;
 }
 
 
@@ -56,75 +67,23 @@
    background: #0e5af2;
 }
 
-/* ----------------------------------- */
 
-/* ----------specialization------------- */
 
-#specialization{
-    background: url(../images/pages/service/process-bg-3-1.jpeg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-#specialization .process_box{
-    text-align: center;
-    max-width: 290px;
-    margin: 0 0 5px 0;
-}
-#specialization .process_arrow{
-    right: -55%;
-    top: 10%;
-}
-#specialization .process_icon{
-    width: 100px;
-    height: 100px;
-    line-height: 100px;
-    text-align: center;
-    position: relative;
-    display: inline-block;
-    background-color: #fff;
-    margin: 22.5px 0 25px 0;
+
+
+/* <!-- ---------Connecting people----------------- --> */
+
+.con_people .pro_out{
     box-shadow: 0px 10px 31px rgba(169, 177, 193, 0.17);
-    border-radius: 5px;
-}
-#specialization .process_number{
-    display: inline-block;
-    width: 45px;
-    height: 45px;
-    line-height: 45px;
-    font-size: 16px;
-    font-weight: 700;
-    position: absolute;
-    right: 0;
-    top: 0;
-    background-color: #0e5af2;
-    color: #fff;
-    margin: -22.5px -22.5px 0 0;
-    border-radius: 50%;
-}
-/* -------------------------------- */
-
-/* ----------customer_feedback---------------- */
-
-#customer_feedback .customer_box{
-    background-color: #f8f8f9;
-    
-}
-#customer_feedback .customer_box .quote_box{
-    width: fit-content;
+    border: 1px solid #d5e0f5;
+    height: 16px;
+    padding: 4px;
+    border-radius: 10px;
     background-color: #fff;
-   
-    
 }
-#customer_feedback .customer_box .quote_box i{
-    width: 60px;
-    height: 60px;
-    line-height: 60px;
-    color: #fff;
-    font-size: 24px;
+.con_people .pro_inner{
+    height: 100%;
     background-color: #0e5af2;
-    text-align: center;
-    display: inline-block;
-   
-    
+    border-radius: inherit;
+    box-shadow: 0px 10px 31px rgba(169, 177, 193, 0.17);
 }

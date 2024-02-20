@@ -28,6 +28,13 @@
     }
     /* --------PAGES-PROJECT-CSS END--------------- */
 
+    /* ------------PAGES-PRICING-CSS-------------- */
+    #pricing_plans .price_amount{
+        font-size: 3.0rem;
+    }
+    /* ------------PAGES-PRICING-CSS-END-------------- */
+
+
     /* ---------------404 PAGE---------------------- */
     .number_404{
         font-size: 8rem;
@@ -55,12 +62,27 @@
         object-fit: cover;
     }
     /* --------PAGES-PROJECT-CSS END--------------- */
+     /* ------------PAGES-PRICING-CSS-------------- */
+     #pricing_plans .price_amount{
+        font-size: 2.5rem;
+    }
+    /* ------------PAGES-PRICING-CSS-END-------------- */
+
+    /* --------PAGES - TEAMDETAILS-------------- */
+    #message_form .container .form form  {
+        width: 100%;
+    }
+    /* --------PAGES - TEAMDETAILS-END------------- */
 
 }
 
 /* /* ---- iphone 13pro max ---------- */
 @media only screen and (max-device-width: 430px) {
-    
+      /* ------------PAGES-PRICING-CSS-------------- */
+      #pricing_plans .price_amount{
+        font-size: 2.0rem;
+    }
+    /* ------------PAGES-PRICING-CSS-END-------------- */
 }
 
 /* /* ---- iphone XR max ---------- */
@@ -87,5 +109,8 @@
 @media only screen and (max-device-width: 360px) {
 
 }
+
+
+
 
 
