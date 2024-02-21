@@ -1,5 +1,19 @@
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {}
+@media only screen and (min-width: 1200px) {
+     /* //navbar hovering */
+     .nav-item:hover .dm {
+        display: block !important;
+    }
+    .row_align{
+        margin-left: 30px;
+        }
+
+        /* //our customers */
+        .our_customers .client_img{   
+           width: 228px !important;
+          }
+          
+}
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {

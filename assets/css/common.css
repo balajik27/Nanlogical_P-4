@@ -46,6 +46,34 @@ li{
 
 #first_section .home_link{
     white-space: normal;
+   
+    word-break: break-word;
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+}
+#first_section .home_link:after{
+    content: "/";
+    position: relative;
+    margin: 0 5px 0 10px;
+}
+#first_section .current_page_title , #first_section .current_page{
+    color: #fff
+}
+
+
+
+
+/* -------FIRST_SECTION-------------- */
+#first_section{
+    /* -------SET BACKGROUND IMAGE HERE------- */
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+#first_section .home_link{
+    white-space: normal;
     color: inherit;
     word-break: break-word;
     font-weight: 500;
