@@ -31,7 +31,17 @@
     transform: translate(-50%,-74%);
 }
 
-.query_text_box .get_a_quote{
+.query_text_box .btn_hover_box{
+   
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 51px);
+}
+.btn_hover_style{
+    padding: 13px 48px 12px 19px
+ }
+/* .query_text_box .get_a_quote{
     color: #fff;
     background: #0e5af2;
     position: absolute;
@@ -39,7 +49,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, 51px);
- }
+ } */
 
 
  /* ------------------------ */

@@ -48,13 +48,9 @@
     background: url(../images/pages/service/cta-bg-1-1.jpeg);
     background-repeat: no-repeat;
     background-position: center;
-    color: #fff;
+    /* color: #fff; */
 }
 
-#consultation .get_a_quote{
-   color: #fff;
-   background: #0e5af2;
-}
 
 /* ----------------------------------- */
 

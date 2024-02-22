@@ -36,3 +36,26 @@
     opacity: 1;
 
 }
+
+/* --------------------------- */
+.btn_add_to_cart{
+    background-color: #0e5af2;
+    color: #fff;
+    padding: 10px 22px;
+    font-size: 14px !important;
+}
+#shop_products .accessories .btn_hover_box i{
+    top: 53.5%;
+    right: 61%;
+    left: 35%;
+    transform: translate(-50% , -100px) scale(0.8);
+    color: #fff;
+    opacity: 0;
+}
+#shop_products .accessories:hover .btn_hover_box i {
+    top: 53%;
+    right: 56%;
+    left: 35%;
+    transform: translate(-50% , -70px) scale(1);
+    opacity: 1;
+}

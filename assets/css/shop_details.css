@@ -17,10 +17,14 @@
 .btn_add_to_cart{
     background-color: #0e5af2;
     color: #fff;
-    padding: 13px 22px;
+    padding: 10px 22px;
+    font-size: 17px !important;
 }
 .btn_add_to_cart:hover{
     color: #fff;
+}
+.btn_hover_style{
+    font-size: 16px !important;
 }
 #kboard_product .container .row .l_content .form_content .icons i  {
     border: 2px solid #d1ecff;
@@ -112,7 +116,7 @@ input:focus , textarea:focus{
 #related_products .accessories .accessories_current_price{
     font-size: 21px;
 }
-#shop_prrelated_productsoducts .accessories:hover .accessories_current_price{
+#related_products .accessories:hover .accessories_current_price{
     color: #fff !important;
 }
 #related_products .accessories .btn_add_to_cart{
@@ -131,4 +135,22 @@ input:focus , textarea:focus{
     color: #fff;
     opacity: 1;
 
+}
+
+/* ------------------------ */
+#related_products .accessories .btn_hover_box i{
+    top: 53.5%;
+    right: 61%;
+    left: 35%;
+    transform: translate(-50% , -100px) scale(0.8);
+    color: #fff;
+    opacity: 0;
+}
+#related_products .accessories:hover  .btn_hover_box i{
+
+    top: 52.5%;
+    right: 64%;
+    left: 35%;
+    transform: translate(-50% , -70px) scale(1);
+    opacity: 1;
 }

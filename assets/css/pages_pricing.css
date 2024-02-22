@@ -20,17 +20,46 @@
 }
 #pricing_plans .pricing_plan_box .price_features .price_features_ul li i{
     color: #0e5af2;
-    
 }
 .get_a_quote{
     color: #fff;
     background: #0e5af2;
  }
  #pricing_plans .pricing_plan_box:hover .get_a_quote{
+    background-color: #fff !important;
+    color: #0e5af2 !important;
+}
+#pricing_plans .pricing_plan_box .get_a_quote:hover{
+    color: #fff !important;
+}
+#pricing_plans .pricing_plan_box .btn_hover_box:hover i{
+    color: #fff !important;
+}
+
+#pricing_plans .pricing_plan_box:hover .btn_hover_style span {
     background-color: #fff;
+}
+#pricing_plans .pricing_plan_box  .btn_hover_style span:nth-child(5) {
+    background-color: black !important;
+}
+#pricing_plans .pricing_plan_box  .btn_hover_style {
+    font-size: 16px;
+}
+#pricing_plans .pricing_plan_box  .btn_hover_style {
+    padding: 13px 69px;
+}
+#pricing_plans .pricing_plan_box  .btn_hover_style:hover{
+    color: #fff !important;
+}
+#pricing_plans .pricing_plan_box  .btn_hover_box i {
+    color: #fff;
+    top: 24%;
+    left: 70%;
+}
+#pricing_plans .pricing_plan_box:hover .btn_hover_box i{
     color: #0e5af2;
 }
- 
+
 #pricing_plans .pricing_plan_box:hover .plan_scheme , #pricing_plans .pricing_plan_box:hover .price_amount ,#pricing_plans .pricing_plan_box:hover .price_duration{
     color: #fff
 }

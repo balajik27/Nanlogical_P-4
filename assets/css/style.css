@@ -17,15 +17,16 @@
     outline: none !important;
     z-index: 9;
   }
-button.owl-prev, button.owl-next{
+  button.owl-prev, button.owl-next{
     outline: none !important;
-    border: none !important;
+    border: 1px solid #fff;
     border-radius:50% ;
+    color: #fff !important;
+    background-color: transparent;
 }
 .bg_i2{
     width: 70px;
     height: 70px;
-    opacity: 0.2 !important;
     border: 2px solid #fff !important;
     border-radius: 50%;
     display: flex;
@@ -34,7 +35,6 @@ button.owl-prev, button.owl-next{
     font-size: 15px;
     padding: 5px 2px !important;
     color: #fff !important;
-    background-color: #000000 !important;
 }
 
 .parent_owl{

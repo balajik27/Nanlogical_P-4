@@ -20,6 +20,14 @@
     
 }
 
+@media only screen and (max-width: 991px) {
+    #pricing_plans .pricing_plan_box .btn_hover_box i {
+        color: #fff;
+        top: 24%;
+        left: 60%;
+    }
+}
+
 /* ipad air  */
 @media only screen and (max-device-width: 820px) {
     
@@ -32,7 +40,18 @@
     #specialization .process_box{
         max-width: 100%;
     }
+    #consultation .btn_hover_box i{
+        top: 22%;
+    }
     /* --------PAGES-SERVICE-CSS - END---------- */
+
+    /* ---------PAGES-SERVICE-DETAILS--------------- */
+    .query_text_box .btn_hover_box i {
+        top: 21%;
+        left: 82%;
+        z-index: 10;
+    }
+    /* ---------PAGES-SERVICE-DETAILS-END--------------- */
 
 
     /* --------PAGES-PROJECT-CSS--------------- */
@@ -46,6 +65,11 @@
     #pricing_plans .price_amount{
         font-size: 3.0rem;
     }
+    #pricing_plans .pricing_plan_box .btn_hover_box i {
+        color: #fff;
+        top: 24%;
+        left: 65%;
+    }
     /* ------------PAGES-PRICING-CSS-END-------------- */
 
 
@@ -58,6 +82,17 @@
     }
     /* ---------------404 PAGE - END---------------------- */
 
+    /* -----------------SHOP- DETAILS-------------- */
+    #related_products .accessories:hover .btn_hover_box i {
+        right: 67%;
+        left: 37%;
+    }
+    #shop_products .accessories:hover .btn_hover_box i {
+        right: 67%;
+        left: 38%;
+        top: 52%;
+    }
+    /* ------------------------------------------------- */
 }
 
 /* Extra small devices (phones, 600px and down) */
@@ -87,8 +122,21 @@
         width: 100%;
     }
     /* --------PAGES - TEAMDETAILS-END------------- */
-
+      /* -----------------SHOP- DETAILS-------------- */
+      #related_products .accessories:hover .btn_hover_box i {
+        right: 67%;
+        left: 36%;
+        top: 52%;
+    }
+      #shop_products .accessories:hover .btn_hover_box i {
+        right: 67%;
+        left: 36%;
+        top: 52%;
+    }
+    /* ------------------------------------------------- */
 }
+
+
 
 /* /* ---- iphone 13pro max ---------- */
 @media only screen and (max-device-width: 430px) {
@@ -96,7 +144,26 @@
       #pricing_plans .price_amount{
         font-size: 2.0rem;
     }
+    #pricing_plans .pricing_plan_box .btn_hover_box i {
+        color: #fff;
+        top: 24%;
+        left: 70%;
+    }
     /* ------------PAGES-PRICING-CSS-END-------------- */
+
+      /* -----------------SHOP- DETAILS-------------- */
+    #related_products .accessories:hover .btn_hover_box i {
+        right: 67%;
+        left: 33%;
+        top: 52.5%;
+    }
+    #shop_products .accessories:hover .btn_hover_box i {
+        right: 67%;
+        left: 33%;
+        top: 52.5%;
+    }
+    /* ------------------------------------------------- */
+
 }
 
 /* /* ---- iphone XR max ---------- */
@@ -116,14 +183,19 @@
 
 /* iPhone 6, 7, 8 ----------- */
 @media only screen and (max-device-width: 375px) {
-    
+    #related_products .accessories:hover .btn_hover_box i {
+        left: 31%;
+    }
+    #shop_products .accessories:hover .btn_hover_box i {
+        left: 31%;
+        top: 53%;
+    }
 }
 
 /* samsung galaxy  */
 @media only screen and (max-device-width: 360px) {
 
 }
-
 
 
 
