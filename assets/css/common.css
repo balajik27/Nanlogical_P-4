@@ -1,9 +1,16 @@
-body h1,
-h3 {
-    font-family: 'Luxurious Roman', cursive;
-    font-family: 'Orelega One', cursive;
-    font-family: 'Roboto Condensed', sans-serif;
-    font-family: 'Yeseva One', cursive;
+@font-face {
+    font-family: Robotto_Reguler;
+    src: url('../fonts/Roboto-Regular.ttf') format("opentype")
+}
+@font-face {
+    font-family: Robotto_Bold;
+    src: url('../fonts/Roboto-Bold.ttf') format("opentype")
+}
+h1,h2,h3,h4,h5,h6 {
+    font-family: Robotto_Bold; 
+}
+p,label,span,a,.btn,button,li,::placeholder{
+    font-family: Robotto_Reguler;
 }
 body {
     margin: 0;

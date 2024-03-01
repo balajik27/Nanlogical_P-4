@@ -301,15 +301,15 @@
     <!-- ------------------------------Blogs s1-------------------------------------- -->
     <section class="cart_s1 py-5 d-flex flex-column w-100" style="padding:800px 0;">
         <div class="py-5 container px-md-5">
-                    <h1 class="text-white px-5">Cart</h1>
-                    <a class="text-white text-decoration-none px-5">Home<span class="text-white home_slash ms-1"><p class="mb-0 ms-3 d-inline-block">My Cart</p></span></a>
+                    <h1 class="text-white px-5" data-aos="fade-down">Cart</h1>
+                    <a class="text-white text-decoration-none px-5" data-aos="fade-down">Home<span class="text-white home_slash ms-1"><p class="mb-0 ms-3 d-inline-block">My Cart</p></span></a>
                 </div>         
     </section>
    <section class="d-flex flex-column w-100">
     <div class="container d-md-block d-none mt-5 px-lg-5">
       <div class="row">
         <div class="col-12">
-          <table class="table d-lg-table d-none mt-5">
+          <table data-aos="fade-up" class="table d-lg-table d-none mt-5">
             <thead class="table_primary">
                 <tr>	 				
                   <th scope="col"><h4 class="text-center">Image</h4></th>
@@ -415,7 +415,7 @@
       <div class="row justify-content-lg-end justify-content-center w-100">
         <div class="col-md-6 col-11">
           <h2 class="my-4">Cart Totals</h2>
-          <table class="mb-5 table-bordered w-100">
+          <table data-aos="fade-down" class="mb-5 table-bordered w-100">
             <tbody>
               <tr>
                 <td class="table_primary2"  colspan="3"><p class="text-center my-4 mx-2">Subtotal</p></td>
@@ -580,6 +580,9 @@
         <script src="assets/lightbox2-dev/dist/js/lightbox.js"></script>
         <!-- --------------- aos script ------------------- -->
         <script src="assets/aos/js/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
 <script>
     $('#quantity_plus').on('click',function(){
             let quantity_value = document.getElementById('quantity_value');

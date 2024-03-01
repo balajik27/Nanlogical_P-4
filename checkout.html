@@ -311,7 +311,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-11">
-                    <div class="border border-primary rounded-1 bg_primary_light">
+                    <div class="border border-primary rounded-1 bg_primary_light" data-aos="fade-down">
                         <p class="py-3 px-3 mb-0"><i class="fa-solid fa-circle-info me-2 text-primary"></i>Have a
                             coupon? <a href="#" class="text-decoration-none">Click here to enter your code</a> </p>
                     </div>
@@ -319,11 +319,11 @@
             </div>
             <div class="row py-2 justify-content-center">
                 <div class="col-11">
-                    <h1 class="py-2">Billing details</h1>
+                    <h1 class="py-2"  data-aos="fade-up">Billing details</h1>
                 </div>
             </div>
 
-            <div class="row justify-content-center billing_details">
+            <div  data-aos="fade-down" class="row justify-content-center billing_details">
                 <div class="col-lg-6 py-2 col-10 d-flex flex-column align-items-center">
                     <div class="row w-100 justify-content-between">
                         <div class="col-lg-6 py-2 ps-0 pe-0 pe-md-1">
@@ -420,8 +420,8 @@
         <div class="container mt-5 px-lg-5">
             <div class="row">
                 <div class="col-12 table-responsive">
-                    <h3 class="py-2">Your Order</h3>
-                    <table class="table mt-5">
+                    <h3 class="py-2"  data-aos="fade-up">Your Order</h3>
+                    <table  data-aos="fade-down" class="table mt-5">
                         <thead class="table_primary">
                             <tr>
                                 <th scope="col">
@@ -491,18 +491,18 @@
                     </table>
                 </div>
                 <div class="col-12">
-                    <h4 class="py-4"><a href="#"><i class="fa-solid fa-circle-dot text-primary"></i></a> Direct Transfer
+                    <h4  data-aos="fade-down" class="py-4"><a href="#"><i class="fa-solid fa-circle-dot text-primary"></i></a> Direct Transfer
                     </h4>
                     <div class="bg_secondary my-2 rounded-1">
-                        <p class="py-3 px-3 mb-0" style="font-size: 14px;">Make your payment directly into our bank
+                        <p  data-aos="fade-up" class="py-3 px-3 mb-0" style="font-size: 14px;">Make your payment directly into our bank
                             account. Please use your Order ID as the payment reference. Your order will not be shipped
                             until the funds have cleared in our account.</p>
 
                     </div>
-                    <p class="my-4">Your personal data will be used to process your order, support your experience
+                    <p  data-aos="fade-down" class="my-4">Your personal data will be used to process your order, support your experience
                         throughout this website, and for other purposes described in our <a
                             class="text-decoration-none">privacy policy.</a></p>
-                    <a href="#" class="text-decoration-none text-white fw-bold px-4 py-2 btn btn-primary">Place
+                    <a  data-aos="fade-up" href="#" class="text-decoration-none text-white fw-bold px-4 py-2 btn btn-primary">Place
                         order</a>
                 </div>
             </div>
@@ -650,7 +650,9 @@
     <script src="assets/lightbox2-dev/dist/js/lightbox.js"></script>
     <!-- --------------- aos script ------------------- -->
     <script src="assets/aos/js/aos.js"></script>
-
+        <script>
+            AOS.init();
+        </script>
     <script>
         const checkbox = document.getElementById('shipToDifferentAddress');
         const shippingAddressContainer = document.getElementById('form_show');
